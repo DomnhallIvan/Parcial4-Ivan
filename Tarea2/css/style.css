@@ -1,0 +1,58 @@
+:root {
+    --color-primary: #67dabd;
+    --color-dark: #8b8858;
+    --font-body: 16px;
+    --font-family: 'Lato', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-size: var(--font-body);
+    font-family: var(--font-family);
+    color: var(--color-primary);
+    background-color: var(--color-dark);
+  }
+  
+  h2 {
+    color: rgb(7, 112, 173);
+    background-color: #78c78c;
+   
+  }
+  
+  a {
+    color: #1eff00;
+    background-color: #666666;
+    transition: all 0.3s ease-out;
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 126, 173);
+  }
+  
+  img, iframe {
+    max-width: 100%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  header, section {
+    padding: 20px;
+  }
+  
+  #menu {
+    
+    color: rgb(24, 7, 173);
+  }
+  
+  
+  
+  footer {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 10px;
+  }
+  
