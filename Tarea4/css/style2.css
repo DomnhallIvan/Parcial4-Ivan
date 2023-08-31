@@ -30,16 +30,17 @@
     color: var(--color-primary);
     background-color: rgb(150, 212, 130);
   }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 100%;
+  }
   
   img, iframe,table{
     max-width: 100%;
     
   }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+
   img{
     display: block;
   margin-left: auto;
@@ -53,7 +54,7 @@
 
   hr{
     border: 5px solid var(--color-primary);
-   
+    border-style: double;
   }
   
   
